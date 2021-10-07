@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    text-align: center;
+    margin: 30px 20px;
+}
+#container h3{
+    color: #007add;
+}
+
+#container h1{
+    background-color: #41a5f6;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.input{
+    margin: 20px;
+}
+
+#input-text, #search-btn {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+#search-btn:hover{
+    color: white;
+    background-color: yellowgreen;
+}
+
+
+#gifs{
+    margin: 20px;
+}
+
+.error{
+    margin: 10px;
+    color: red;
+}
+img{
+    border-radius: 15px;
+    width: 30%;
+    margin: 1%;
+    height: 300px;
+}
+img:hover {
+    transform: scale(1.1);
+    transition: 0.25s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
